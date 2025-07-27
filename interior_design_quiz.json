@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 1)",
+    "options": [
+      {
+        "style": "Scandinavian",
+        "image": "images/question_1_scandinavian.jpg"
+      },
+      {
+        "style": "Industrial",
+        "image": "images/question_1_industrial.jpg"
+      },
+      {
+        "style": "Bohemian",
+        "image": "images/question_1_bohemian.jpg"
+      },
+      {
+        "style": "Minimalist",
+        "image": "images/question_1_minimalist.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 2)",
+    "options": [
+      {
+        "style": "Industrial",
+        "image": "images/question_2_industrial.jpg"
+      },
+      {
+        "style": "Bohemian",
+        "image": "images/question_2_bohemian.jpg"
+      },
+      {
+        "style": "Minimalist",
+        "image": "images/question_2_minimalist.jpg"
+      },
+      {
+        "style": "Mid-Century Modern",
+        "image": "images/question_2_mid-century_modern.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 3)",
+    "options": [
+      {
+        "style": "Bohemian",
+        "image": "images/question_3_bohemian.jpg"
+      },
+      {
+        "style": "Minimalist",
+        "image": "images/question_3_minimalist.jpg"
+      },
+      {
+        "style": "Mid-Century Modern",
+        "image": "images/question_3_mid-century_modern.jpg"
+      },
+      {
+        "style": "Traditional",
+        "image": "images/question_3_traditional.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 4)",
+    "options": [
+      {
+        "style": "Minimalist",
+        "image": "images/question_4_minimalist.jpg"
+      },
+      {
+        "style": "Mid-Century Modern",
+        "image": "images/question_4_mid-century_modern.jpg"
+      },
+      {
+        "style": "Traditional",
+        "image": "images/question_4_traditional.jpg"
+      },
+      {
+        "style": "Rustic",
+        "image": "images/question_4_rustic.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 5)",
+    "options": [
+      {
+        "style": "Mid-Century Modern",
+        "image": "images/question_5_mid-century_modern.jpg"
+      },
+      {
+        "style": "Traditional",
+        "image": "images/question_5_traditional.jpg"
+      },
+      {
+        "style": "Rustic",
+        "image": "images/question_5_rustic.jpg"
+      },
+      {
+        "style": "Contemporary",
+        "image": "images/question_5_contemporary.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 6)",
+    "options": [
+      {
+        "style": "Traditional",
+        "image": "images/question_6_traditional.jpg"
+      },
+      {
+        "style": "Rustic",
+        "image": "images/question_6_rustic.jpg"
+      },
+      {
+        "style": "Contemporary",
+        "image": "images/question_6_contemporary.jpg"
+      },
+      {
+        "style": "Coastal",
+        "image": "images/question_6_coastal.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 7)",
+    "options": [
+      {
+        "style": "Rustic",
+        "image": "images/question_7_rustic.jpg"
+      },
+      {
+        "style": "Contemporary",
+        "image": "images/question_7_contemporary.jpg"
+      },
+      {
+        "style": "Coastal",
+        "image": "images/question_7_coastal.jpg"
+      },
+      {
+        "style": "Eclectic",
+        "image": "images/question_7_eclectic.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 8)",
+    "options": [
+      {
+        "style": "Contemporary",
+        "image": "images/question_8_contemporary.jpg"
+      },
+      {
+        "style": "Coastal",
+        "image": "images/question_8_coastal.jpg"
+      },
+      {
+        "style": "Eclectic",
+        "image": "images/question_8_eclectic.jpg"
+      },
+      {
+        "style": "Scandinavian",
+        "image": "images/question_8_scandinavian.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 9)",
+    "options": [
+      {
+        "style": "Coastal",
+        "image": "images/question_9_coastal.jpg"
+      },
+      {
+        "style": "Eclectic",
+        "image": "images/question_9_eclectic.jpg"
+      },
+      {
+        "style": "Scandinavian",
+        "image": "images/question_9_scandinavian.jpg"
+      },
+      {
+        "style": "Industrial",
+        "image": "images/question_9_industrial.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 10)",
+    "options": [
+      {
+        "style": "Eclectic",
+        "image": "images/question_10_eclectic.jpg"
+      },
+      {
+        "style": "Scandinavian",
+        "image": "images/question_10_scandinavian.jpg"
+      },
+      {
+        "style": "Industrial",
+        "image": "images/question_10_industrial.jpg"
+      },
+      {
+        "style": "Bohemian",
+        "image": "images/question_10_bohemian.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 11)",
+    "options": [
+      {
+        "style": "Scandinavian",
+        "image": "images/question_11_scandinavian.jpg"
+      },
+      {
+        "style": "Industrial",
+        "image": "images/question_11_industrial.jpg"
+      },
+      {
+        "style": "Bohemian",
+        "image": "images/question_11_bohemian.jpg"
+      },
+      {
+        "style": "Minimalist",
+        "image": "images/question_11_minimalist.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 12)",
+    "options": [
+      {
+        "style": "Industrial",
+        "image": "images/question_12_industrial.jpg"
+      },
+      {
+        "style": "Bohemian",
+        "image": "images/question_12_bohemian.jpg"
+      },
+      {
+        "style": "Minimalist",
+        "image": "images/question_12_minimalist.jpg"
+      },
+      {
+        "style": "Mid-Century Modern",
+        "image": "images/question_12_mid-century_modern.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 13)",
+    "options": [
+      {
+        "style": "Bohemian",
+        "image": "images/question_13_bohemian.jpg"
+      },
+      {
+        "style": "Minimalist",
+        "image": "images/question_13_minimalist.jpg"
+      },
+      {
+        "style": "Mid-Century Modern",
+        "image": "images/question_13_mid-century_modern.jpg"
+      },
+      {
+        "style": "Traditional",
+        "image": "images/question_13_traditional.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 14)",
+    "options": [
+      {
+        "style": "Minimalist",
+        "image": "images/question_14_minimalist.jpg"
+      },
+      {
+        "style": "Mid-Century Modern",
+        "image": "images/question_14_mid-century_modern.jpg"
+      },
+      {
+        "style": "Traditional",
+        "image": "images/question_14_traditional.jpg"
+      },
+      {
+        "style": "Rustic",
+        "image": "images/question_14_rustic.jpg"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 15)",
+    "options": [
+      {
+        "style": "Mid-Century Modern",
+        "image": "images/question_15_mid-century_modern.jpg"
+      },
+      {
+        "style": "Traditional",
+        "image": "images/question_15_traditional.jpg"
+      },
+      {
+        "style": "Rustic",
+        "image": "images/question_15_rustic.jpg"
+      },
+      {
+        "style": "Contemporary",
+        "image": "images/question_15_contemporary.jpg"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 16)",
+    "options": [
+      {
+        "style": "Traditional",
+        "image": "images/question_16_traditional.jpg"
+      },
+      {
+        "style": "Rustic",
+        "image": "images/question_16_rustic.jpg"
+      },
+      {
+        "style": "Contemporary",
+        "image": "images/question_16_contemporary.jpg"
+      },
+      {
+        "style": "Coastal",
+        "image": "images/question_16_coastal.jpg"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 17)",
+    "options": [
+      {
+        "style": "Rustic",
+        "image": "images/question_17_rustic.jpg"
+      },
+      {
+        "style": "Contemporary",
+        "image": "images/question_17_contemporary.jpg"
+      },
+      {
+        "style": "Coastal",
+        "image": "images/question_17_coastal.jpg"
+      },
+      {
+        "style": "Eclectic",
+        "image": "images/question_17_eclectic.jpg"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 18)",
+    "options": [
+      {
+        "style": "Contemporary",
+        "image": "images/question_18_contemporary.jpg"
+      },
+      {
+        "style": "Coastal",
+        "image": "images/question_18_coastal.jpg"
+      },
+      {
+        "style": "Eclectic",
+        "image": "images/question_18_eclectic.jpg"
+      },
+      {
+        "style": "Scandinavian",
+        "image": "images/question_18_scandinavian.jpg"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 19)",
+    "options": [
+      {
+        "style": "Coastal",
+        "image": "images/question_19_coastal.jpg"
+      },
+      {
+        "style": "Eclectic",
+        "image": "images/question_19_eclectic.jpg"
+      },
+      {
+        "style": "Scandinavian",
+        "image": "images/question_19_scandinavian.jpg"
+      },
+      {
+        "style": "Industrial",
+        "image": "images/question_19_industrial.jpg"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Welche Raumgestaltung spricht dich am meisten an? (Frage 20)",
+    "options": [
+      {
+        "style": "Eclectic",
+        "image": "images/question_20_eclectic.jpg"
+      },
+      {
+        "style": "Scandinavian",
+        "image": "images/question_20_scandinavian.jpg"
+      },
+      {
+        "style": "Industrial",
+        "image": "images/question_20_industrial.jpg"
+      },
+      {
+        "style": "Bohemian",
+        "image": "images/question_20_bohemian.jpg"
+      }
+    ]
+  }
+]
