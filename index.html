@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Finde deinen Designstil</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+        .quiz-container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; }
+        .question { margin-bottom: 30px; }
+        .question h2 { font-size: 20px; }
+        .answers { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px; }
+        .answer { flex: 1 1 45%; cursor: pointer; border: 2px solid transparent; border-radius: 8px; overflow: hidden; }
+        .answer img { width: 100%; height: auto; display: block; }
+        .answer.selected { border-color: #007BFF; }
+        #result { display: none; margin-top: 40px; }
+        #result h2 { font-size: 24px; }
+        #result img { max-width: 100%; margin-top: 10px; }
+        button { padding: 10px 20px; font-size: 16px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz"></div>
+        <button onclick="showResult()">Ergebnis anzeigen</button>
+        <div id="result">
+            <h2>Dein Designstil ist:</h2>
+            <div id="style-description"></div>
+            <img id="style-image" src="" alt="">
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                text: "Frage 1: Welche Farbpalette spricht dich am meisten an?",
+                options: [
+                    { style: "Scandinavian", image: "image1a.jpg" },
+                    { style: "Japandi", image: "image1b.jpg" },
+                    { style: "Mediterranean", image: "image1c.jpg" },
+                    { style: "Industrial", image: "image1d.jpg" }
+                ]
+            },
+            // Weitere Fragen (Frage 2 bis 20) können hier ergänzt werden
+        ];
+
+        const styleScores = {};
+        const quizContainer = document.getElementById("quiz");
+
+        questions.forEach((q, index) => {
+            const qDiv = document.createElement("div");
+            qDiv.className = "question";
+            qDiv.innerHTML = `<h2>${q.text}</h2>`;
+            const answersDiv = document.createElement("div");
+            answersDiv.className = "answers";
+
+            q.options.forEach((opt, optIndex) => {
+                const aDiv = document.createElement("div");
+                aDiv.className = "answer";
+                aDiv.innerHTML = `<img src="${opt.image}" alt="${opt.style}">`;
+                aDiv.onclick = () => {
+                    Array.from(answersDiv.children).forEach(c => c.classList.remove("selected"));
+                    aDiv.classList.add("selected");
+                    questions[index].selected = opt.style;
+                };
+                answersDiv.appendChild(aDiv);
+            });
+
+            qDiv.appendChild(answersDiv);
+            quizContainer.appendChild(qDiv);
+        });
+
+        function showResult() {
+            questions.forEach(q => {
+                if (q.selected) {
+                    styleScores[q.selected] = (styleScores[q.selected] || 0) + 1;
+                }
+            });
+
+            const topStyle = Object.entries(styleScores).sort((a, b) => b[1] - a[1])[0][0];
+            const resultDiv = document.getElementById("result");
+            const descDiv = document.getElementById("style-description");
+            const img = document.getElementById("style-image");
+
+            descDiv.innerText = `Du bevorzugst den Stil: ${topStyle}`;
+            img.src = `result-${topStyle.toLowerCase()}.jpg`;
+            resultDiv.style.display = "block";
+        }
+    </script>
+</body>
+</html>
