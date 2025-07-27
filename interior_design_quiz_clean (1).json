@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Welcher Wohnzimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Weiß, Grau und Hellblau",
+        "image": "images/question_1_scandinavian.jpg",
+        "style": "Scandinavian"
+      },
+      {
+        "text": "Beige, Sand und Schwarz",
+        "image": "images/question_1_japandi.jpg",
+        "style": "Japandi"
+      },
+      {
+        "text": "Terrakotta, Ocker und Türkis",
+        "image": "images/question_1_mediterranean.jpg",
+        "style": "Mediterranean"
+      },
+      {
+        "text": "Schwarz, Grau und Rostrot",
+        "image": "images/question_1_industrial.jpg",
+        "style": "Industrial"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Küche spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Beige, Sand und Schwarz",
+        "image": "images/question_2_japandi.jpg",
+        "style": "Japandi"
+      },
+      {
+        "text": "Terrakotta, Ocker und Türkis",
+        "image": "images/question_2_mediterranean.jpg",
+        "style": "Mediterranean"
+      },
+      {
+        "text": "Schwarz, Grau und Rostrot",
+        "image": "images/question_2_industrial.jpg",
+        "style": "Industrial"
+      },
+      {
+        "text": "Bunt, gemustert und naturfarben",
+        "image": "images/question_2_bohemian.jpg",
+        "style": "Bohemian"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Schlafzimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Terrakotta, Ocker und Türkis",
+        "image": "images/question_3_mediterranean.jpg",
+        "style": "Mediterranean"
+      },
+      {
+        "text": "Schwarz, Grau und Rostrot",
+        "image": "images/question_3_industrial.jpg",
+        "style": "Industrial"
+      },
+      {
+        "text": "Bunt, gemustert und naturfarben",
+        "image": "images/question_3_bohemian.jpg",
+        "style": "Bohemian"
+      },
+      {
+        "text": "Weiß, Schwarz und klare Linien",
+        "image": "images/question_3_minimalist.jpg",
+        "style": "Minimalist"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Esszimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Schwarz, Grau und Rostrot",
+        "image": "images/question_4_industrial.jpg",
+        "style": "Industrial"
+      },
+      {
+        "text": "Bunt, gemustert und naturfarben",
+        "image": "images/question_4_bohemian.jpg",
+        "style": "Bohemian"
+      },
+      {
+        "text": "Weiß, Schwarz und klare Linien",
+        "image": "images/question_4_minimalist.jpg",
+        "style": "Minimalist"
+      },
+      {
+        "text": "Grau, Weiß und Glas",
+        "image": "images/question_4_modern.jpg",
+        "style": "Modern"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Badezimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Bunt, gemustert und naturfarben",
+        "image": "images/question_5_bohemian.jpg",
+        "style": "Bohemian"
+      },
+      {
+        "text": "Weiß, Schwarz und klare Linien",
+        "image": "images/question_5_minimalist.jpg",
+        "style": "Minimalist"
+      },
+      {
+        "text": "Grau, Weiß und Glas",
+        "image": "images/question_5_modern.jpg",
+        "style": "Modern"
+      },
+      {
+        "text": "Holz, Braun und Naturstein",
+        "image": "images/question_5_rustic.jpg",
+        "style": "Rustic"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Flur spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Weiß, Schwarz und klare Linien",
+        "image": "images/question_6_minimalist.jpg",
+        "style": "Minimalist"
+      },
+      {
+        "text": "Grau, Weiß und Glas",
+        "image": "images/question_6_modern.jpg",
+        "style": "Modern"
+      },
+      {
+        "text": "Holz, Braun und Naturstein",
+        "image": "images/question_6_rustic.jpg",
+        "style": "Rustic"
+      },
+      {
+        "text": "Pastell, Messing und florale Muster",
+        "image": "images/question_6_vintage.jpg",
+        "style": "Vintage"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Arbeitszimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Grau, Weiß und Glas",
+        "image": "images/question_7_modern.jpg",
+        "style": "Modern"
+      },
+      {
+        "text": "Holz, Braun und Naturstein",
+        "image": "images/question_7_rustic.jpg",
+        "style": "Rustic"
+      },
+      {
+        "text": "Pastell, Messing und florale Muster",
+        "image": "images/question_7_vintage.jpg",
+        "style": "Vintage"
+      },
+      {
+        "text": "Senfgelb, Teakholz und geometrisch",
+        "image": "images/question_7_mid-century.jpg",
+        "style": "Mid-Century"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Kinderzimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Holz, Braun und Naturstein",
+        "image": "images/question_8_rustic.jpg",
+        "style": "Rustic"
+      },
+      {
+        "text": "Pastell, Messing und florale Muster",
+        "image": "images/question_8_vintage.jpg",
+        "style": "Vintage"
+      },
+      {
+        "text": "Senfgelb, Teakholz und geometrisch",
+        "image": "images/question_8_mid-century.jpg",
+        "style": "Mid-Century"
+      },
+      {
+        "text": "Weiß, Grau und Hellblau",
+        "image": "images/question_8_scandinavian.jpg",
+        "style": "Scandinavian"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Gästezimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Pastell, Messing und florale Muster",
+        "image": "images/question_9_vintage.jpg",
+        "style": "Vintage"
+      },
+      {
+        "text": "Senfgelb, Teakholz und geometrisch",
+        "image": "images/question_9_mid-century.jpg",
+        "style": "Mid-Century"
+      },
+      {
+        "text": "Weiß, Grau und Hellblau",
+        "image": "images/question_9_scandinavian.jpg",
+        "style": "Scandinavian"
+      },
+      {
+        "text": "Beige, Sand und Schwarz",
+        "image": "images/question_9_japandi.jpg",
+        "style": "Japandi"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Terrasse spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Senfgelb, Teakholz und geometrisch",
+        "image": "images/question_10_mid-century.jpg",
+        "style": "Mid-Century"
+      },
+      {
+        "text": "Weiß, Grau und Hellblau",
+        "image": "images/question_10_scandinavian.jpg",
+        "style": "Scandinavian"
+      },
+      {
+        "text": "Beige, Sand und Schwarz",
+        "image": "images/question_10_japandi.jpg",
+        "style": "Japandi"
+      },
+      {
+        "text": "Terrakotta, Ocker und Türkis",
+        "image": "images/question_10_mediterranean.jpg",
+        "style": "Mediterranean"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Wohnzimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Weiß, Grau und Hellblau",
+        "image": "images/question_11_scandinavian.jpg",
+        "style": "Scandinavian"
+      },
+      {
+        "text": "Beige, Sand und Schwarz",
+        "image": "images/question_11_japandi.jpg",
+        "style": "Japandi"
+      },
+      {
+        "text": "Terrakotta, Ocker und Türkis",
+        "image": "images/question_11_mediterranean.jpg",
+        "style": "Mediterranean"
+      },
+      {
+        "text": "Schwarz, Grau und Rostrot",
+        "image": "images/question_11_industrial.jpg",
+        "style": "Industrial"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Küche spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Beige, Sand und Schwarz",
+        "image": "images/question_12_japandi.jpg",
+        "style": "Japandi"
+      },
+      {
+        "text": "Terrakotta, Ocker und Türkis",
+        "image": "images/question_12_mediterranean.jpg",
+        "style": "Mediterranean"
+      },
+      {
+        "text": "Schwarz, Grau und Rostrot",
+        "image": "images/question_12_industrial.jpg",
+        "style": "Industrial"
+      },
+      {
+        "text": "Bunt, gemustert und naturfarben",
+        "image": "images/question_12_bohemian.jpg",
+        "style": "Bohemian"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Schlafzimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Terrakotta, Ocker und Türkis",
+        "image": "images/question_13_mediterranean.jpg",
+        "style": "Mediterranean"
+      },
+      {
+        "text": "Schwarz, Grau und Rostrot",
+        "image": "images/question_13_industrial.jpg",
+        "style": "Industrial"
+      },
+      {
+        "text": "Bunt, gemustert und naturfarben",
+        "image": "images/question_13_bohemian.jpg",
+        "style": "Bohemian"
+      },
+      {
+        "text": "Weiß, Schwarz und klare Linien",
+        "image": "images/question_13_minimalist.jpg",
+        "style": "Minimalist"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Esszimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Schwarz, Grau und Rostrot",
+        "image": "images/question_14_industrial.jpg",
+        "style": "Industrial"
+      },
+      {
+        "text": "Bunt, gemustert und naturfarben",
+        "image": "images/question_14_bohemian.jpg",
+        "style": "Bohemian"
+      },
+      {
+        "text": "Weiß, Schwarz und klare Linien",
+        "image": "images/question_14_minimalist.jpg",
+        "style": "Minimalist"
+      },
+      {
+        "text": "Grau, Weiß und Glas",
+        "image": "images/question_14_modern.jpg",
+        "style": "Modern"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Badezimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Bunt, gemustert und naturfarben",
+        "image": "images/question_15_bohemian.jpg",
+        "style": "Bohemian"
+      },
+      {
+        "text": "Weiß, Schwarz und klare Linien",
+        "image": "images/question_15_minimalist.jpg",
+        "style": "Minimalist"
+      },
+      {
+        "text": "Grau, Weiß und Glas",
+        "image": "images/question_15_modern.jpg",
+        "style": "Modern"
+      },
+      {
+        "text": "Holz, Braun und Naturstein",
+        "image": "images/question_15_rustic.jpg",
+        "style": "Rustic"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Flur spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Weiß, Schwarz und klare Linien",
+        "image": "images/question_16_minimalist.jpg",
+        "style": "Minimalist"
+      },
+      {
+        "text": "Grau, Weiß und Glas",
+        "image": "images/question_16_modern.jpg",
+        "style": "Modern"
+      },
+      {
+        "text": "Holz, Braun und Naturstein",
+        "image": "images/question_16_rustic.jpg",
+        "style": "Rustic"
+      },
+      {
+        "text": "Pastell, Messing und florale Muster",
+        "image": "images/question_16_vintage.jpg",
+        "style": "Vintage"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Arbeitszimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Grau, Weiß und Glas",
+        "image": "images/question_17_modern.jpg",
+        "style": "Modern"
+      },
+      {
+        "text": "Holz, Braun und Naturstein",
+        "image": "images/question_17_rustic.jpg",
+        "style": "Rustic"
+      },
+      {
+        "text": "Pastell, Messing und florale Muster",
+        "image": "images/question_17_vintage.jpg",
+        "style": "Vintage"
+      },
+      {
+        "text": "Senfgelb, Teakholz und geometrisch",
+        "image": "images/question_17_mid-century.jpg",
+        "style": "Mid-Century"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Kinderzimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Holz, Braun und Naturstein",
+        "image": "images/question_18_rustic.jpg",
+        "style": "Rustic"
+      },
+      {
+        "text": "Pastell, Messing und florale Muster",
+        "image": "images/question_18_vintage.jpg",
+        "style": "Vintage"
+      },
+      {
+        "text": "Senfgelb, Teakholz und geometrisch",
+        "image": "images/question_18_mid-century.jpg",
+        "style": "Mid-Century"
+      },
+      {
+        "text": "Weiß, Grau und Hellblau",
+        "image": "images/question_18_scandinavian.jpg",
+        "style": "Scandinavian"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Gästezimmer spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Pastell, Messing und florale Muster",
+        "image": "images/question_19_vintage.jpg",
+        "style": "Vintage"
+      },
+      {
+        "text": "Senfgelb, Teakholz und geometrisch",
+        "image": "images/question_19_mid-century.jpg",
+        "style": "Mid-Century"
+      },
+      {
+        "text": "Weiß, Grau und Hellblau",
+        "image": "images/question_19_scandinavian.jpg",
+        "style": "Scandinavian"
+      },
+      {
+        "text": "Beige, Sand und Schwarz",
+        "image": "images/question_19_japandi.jpg",
+        "style": "Japandi"
+      }
+    ]
+  },
+  {
+    "question": "Welcher Terrasse spricht dich am meisten an?",
+    "answers": [
+      {
+        "text": "Senfgelb, Teakholz und geometrisch",
+        "image": "images/question_20_mid-century.jpg",
+        "style": "Mid-Century"
+      },
+      {
+        "text": "Weiß, Grau und Hellblau",
+        "image": "images/question_20_scandinavian.jpg",
+        "style": "Scandinavian"
+      },
+      {
+        "text": "Beige, Sand und Schwarz",
+        "image": "images/question_20_japandi.jpg",
+        "style": "Japandi"
+      },
+      {
+        "text": "Terrakotta, Ocker und Türkis",
+        "image": "images/question_20_mediterranean.jpg",
+        "style": "Mediterranean"
+      }
+    ]
+  }
+]
